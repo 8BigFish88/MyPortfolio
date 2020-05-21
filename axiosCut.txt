@@ -1,0 +1,8 @@
+    axios
+      .post("http://localhost:5000/api/v1.0/mails", data)
+      .then((res) => {
+        this.setState({ sent: true }, this.resetForm());
+      })
+      .catch(() => {
+        console.log("Message not sent");
+      });
