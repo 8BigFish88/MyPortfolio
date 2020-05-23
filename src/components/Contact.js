@@ -10,7 +10,16 @@ class Contact extends Component {
     buttonText: "Send Message",
   };
 
-  formSubmit = async (e) => {
+  resetForm = () => {
+    this.setState({
+      name: "",
+      message: "",
+      email: "",
+      buttonText: "Message Sent",
+    });
+  };
+
+  formSubmit = (e) => {
     e.preventDefault();
 
     this.setState({
@@ -23,39 +32,14 @@ class Contact extends Component {
       message: this.state.message,
     };
 
-    const resetForm = () => {
-      this.setState({
-        name: "",
-        message: "",
-        email: "",
-        buttonText: "Message Sent",
+    axios
+      .post("https://nodemailapi.now.sh/api/v1", data)
+      .then((res) => {
+        this.setState({ sent: true }, this.resetForm());
+      })
+      .catch(() => {
+        console.log("Message not sent");
       });
-    };
-
-    let response;
-    while (true) {
-      response = await fetch(`http://localhost:5000/api/v1.0/mails`, {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-      const data2 = await response.json();
-      if (response.status !== 500) {
-        this.setState({
-          sent: true,
-          name: "",
-          message: "",
-          email: "",
-          buttonText: "Message Sent",
-        });
-        alert("Your message has been sent");
-        console.log(data2);
-        break;
-      }
-    }
   };
 
   render() {
