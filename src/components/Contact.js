@@ -34,9 +34,14 @@ class Contact extends Component {
 
     axios
       .post("https://nodemailapi.now.sh/api/v1", data)
-      .then((res) => {
-        this.setState({ sent: true }, this.resetForm());
-      })
+      .then(
+        (res) => {
+          this.setState({ sent: true }, this.resetForm());
+        },
+        {
+          "Content-Type": "application/json",
+        }
+      )
       .catch(() => {
         console.log("Message not sent");
       });
