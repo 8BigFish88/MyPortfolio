@@ -32,19 +32,16 @@ class Contact extends Component {
       message: this.state.message,
     };
 
-    axios
-      .post("https://nodemailapi.now.sh/api/v1", data)
-      .then(
-        (res) => {
-          this.setState({ sent: true }, this.resetForm());
-        },
-        {
-          "Content-Type": "application/json",
-        }
-      )
-      .catch(() => {
-        console.log("Message not sent");
-      });
+    const sgMail = require("@sendgrid/mail");
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+    const msg = {
+      to: "ivana.zaccheddu88@gmail.com",
+      from: data.email,
+      subject: data.name,
+      text: data.message,
+      html: "<strong>and easy to do anywhere, even with Node.js</strong>",
+    };
+    sgMail.send(msg);
   };
 
   render() {
