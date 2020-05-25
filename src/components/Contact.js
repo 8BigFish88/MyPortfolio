@@ -33,7 +33,7 @@ class Contact extends Component {
     };
 
     axios
-      .post("https://nodemailapi.now.sh/api/v1", data)
+      .post("https://apinode2.8bigfish88.now.sh/api/v1", data)
       .then(
         (res) => {
           this.setState({ sent: true }, this.resetForm());
