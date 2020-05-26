@@ -48,7 +48,13 @@ export default class Resume extends Component {
                 {resumeData.skills &&
                   resumeData.skills.map((item) => {
                     return (
-                      <li>
+                      <li
+                        onClick={() => {
+                          item.skilllink
+                            ? window.open(item.skilllink, "_blank")
+                            : console.log("this skill has nolink yet");
+                        }}
+                      >
                         <span
                           className={`bar-expand ${item.skillname.toLowerCase()}`}
                         />

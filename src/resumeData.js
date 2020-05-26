@@ -63,7 +63,7 @@ let resumeData = {
       Achievements: "Some Achievements",
     },
   ],
-  skillsDescription: "This are my skills",
+  skillsDescription: "This are my skills. ( Click to see some code )",
   skills: [
     {
       skillname: "Python",
@@ -71,9 +71,12 @@ let resumeData = {
     },
     {
       skillname: "Flask",
+      skilllink: "https://github.com/8BigFish88/SaveYourCarBETA",
     },
     {
       skillname: "SQL",
+      skilllink:
+        "https://github.com/8BigFish88/DBschema/blob/master/FeatureUserMenagemant",
     },
     {
       skillname: "JavaScript",
@@ -81,21 +84,26 @@ let resumeData = {
     },
     {
       skillname: "ReactNative",
+      skilllink: "https://github.com/8BigFish88/AddGoalsReactNative",
     },
     {
       skillname: "Reactjs",
+      skilllink: "https://github.com/8BigFish88/SaveYourCar_React_FrontEnd",
     },
     {
       skillname: "HTML5",
+      skilllink: "https://www.sololearn.com/Profile/16038617/HTML",
     },
     {
       skillname: "CSS",
+      skilllink: "https://www.sololearn.com/Profile/16038617/CSS",
     },
     {
       skillname: "Git",
     },
     {
       skillname: "C#",
+      skilllink: "https://www.sololearn.com/Profile/16038617/CSharp",
     },
     {
       skillname: ".NET-Framework",
@@ -114,7 +122,7 @@ let resumeData = {
       skillname: "PostScript",
     },
   ],
-  portfolioCaption: "Check out some of my work.",
+  portfolioCaption: "Check out some of my work. ( Click to see the web pages )",
   portfolio: [
     {
       name: "SaveYourCar",
@@ -224,7 +232,8 @@ let resumeDataItalian = {
       Achievements: "Some Achievements",
     },
   ],
-  skillsDescription: "Queste sono le mie abilità",
+  skillsDescription:
+    "Queste sono le mie abilità. ( Clicca per vedere alcuni codici )",
   skills: [
     {
       skillname: "Python",
@@ -232,9 +241,12 @@ let resumeDataItalian = {
     },
     {
       skillname: "Flask",
+      skilllink: "https://github.com/8BigFish88/SaveYourCarBETA",
     },
     {
       skillname: "SQL",
+      skilllink:
+        "https://github.com/8BigFish88/DBschema/blob/master/FeatureUserMenagemant",
     },
     {
       skillname: "JavaScript",
@@ -242,21 +254,26 @@ let resumeDataItalian = {
     },
     {
       skillname: "ReactNative",
+      skilllink: "https://github.com/8BigFish88/AddGoalsReactNative",
     },
     {
       skillname: "Reactjs",
+      skilllink: "https://github.com/8BigFish88/SaveYourCar_React_FrontEnd",
     },
     {
       skillname: "HTML5",
+      skilllink: "https://www.sololearn.com/Profile/16038617/HTML",
     },
     {
       skillname: "CSS",
+      skilllink: "https://www.sololearn.com/Profile/16038617/CSS",
     },
     {
       skillname: "Git",
     },
     {
       skillname: "C#",
+      skilllink: "https://www.sololearn.com/Profile/16038617/CSharp",
     },
     {
       skillname: ".NET-Framework",
@@ -275,7 +292,8 @@ let resumeDataItalian = {
       skillname: "PostScript",
     },
   ],
-  portfolioCaption: "Ecco alcuni dei miei lavori.",
+  portfolioCaption:
+    "Ecco alcuni dei miei lavori. ( Clicca per vedere le pagine web )",
   portfolio: [
     {
       name: "SaveYourCar",
