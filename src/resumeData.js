@@ -18,7 +18,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am currently looking for a job as a developer. I'm also about to finish a System Integrator course. I beleave this is the best choice of future for me. My love for coding and problem solving, in general, tell me this is the right thing to do. I hope someone would give me soon the chance to prove I'm right.",
+    "I am currently looking for a job as a developer. I'm also about to finish a System Integrator course. I believe this is the best choice of future for me. My love for coding and problem solving, in general, tell me this is the right thing to do. I hope someone would give me soon the chance to prove I'm right.",
   address: "Italy",
   website: "https://github.com/8BigFish88",
   education: [
@@ -295,7 +295,7 @@ let resumeDataItalian = {
     {
       name: "DoneWithIt",
       description:
-        "Questa è un'app mobile, attualente in fase di sviluppo con react-native ed Expo. Scaricando Expo sul cellulare è possibile accedere all'app.",
+        "Questa è un'app mobile, attualmente in fase di sviluppo con react-native ed Expo. Scaricando Expo sul cellulare è possibile accedere all'app.",
       imgurl: "images/portfolio/donewithit.png",
       url: "https://expo.io/@8bigfish8/DoneWithIt",
     },
