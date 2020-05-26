@@ -25,7 +25,7 @@ let resumeData = {
     {
       UniversityName: "Scientific Studies",
       specialization:
-        "I've sustain various exams in Math, Physics and Computer Science.",
+        "I've passed various exams in Math, Physics and Computer Science.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
