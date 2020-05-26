@@ -169,7 +169,7 @@ let resumeDataItalian = {
   aboutme:
     "Sto cercando un lavoro come developer. Al momento sono in procinto di terminare un corso di System Integrator. Credo con fermezza che questa sia la giusta strada per me. Spero mi sia data presto la possibilità didimostrarlo.",
   address: "Italia",
-  website: "https://",
+  website: "https://github.com/8BigFish88",
   education: [
     {
       UniversityName: "Studi Scientifici",
