@@ -1,5 +1,5 @@
 let resumeData = {
-  imagebaseurl: "https://rbhatia46.github.io/",
+  imagebaseurl: "",
   name: "Ivana Zaccheddu",
   role: "I love coding",
   linkedinId: "Your LinkedIn Id",
@@ -12,19 +12,9 @@ let resumeData = {
   },
   socialLinks: [
     {
-      name: "linkedin",
-      url: "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-      className: "fa fa-linkedin",
-    },
-    {
       name: "github",
       url: "https://github.com/8BigFish88",
       className: "fa fa-github",
-    },
-    {
-      name: "skype",
-      url: "http://twitter.com/rbhatia46",
-      className: "fa fa-twitter",
     },
   ],
   aboutme:
@@ -158,7 +148,7 @@ let resumeData = {
 };
 
 let resumeDataItalian = {
-  imagebaseurl: "https://rbhatia46.github.io/",
+  imagebaseurl: "",
   name: "Ivana Zaccheddu",
   role: "Amo programmare",
   linkedinId: "Your LinkedIn Id",
@@ -171,25 +161,15 @@ let resumeDataItalian = {
   },
   socialLinks: [
     {
-      name: "linkedin",
-      url: "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-      className: "fa fa-linkedin",
-    },
-    {
       name: "github",
       url: "https://github.com/8BigFish88",
       className: "fa fa-github",
-    },
-    {
-      name: "skype",
-      url: "http://twitter.com/rbhatia46",
-      className: "fa fa-twitter",
     },
   ],
   aboutme:
     "Sto cercando un lavoro come developer. Al momento sono in procinto di terminare un corso di System Integrator. Credo con fermezza che questa sia la giusta strada per me. Spero mi sia data presto la possibilità didimostrarlo.",
   address: "Italia",
-  website: "https://rbhatia46.github.io",
+  website: "https://",
   education: [
     {
       UniversityName: "Studi Scientifici",
