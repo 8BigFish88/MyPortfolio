@@ -103,6 +103,7 @@ let resumeData = {
       skillname: "PostScript",
     },
   ],
+  portfolioCaption: "Check out some of my work.",
   portfolio: [
     {
       name: "SaveYourCar",
@@ -252,6 +253,7 @@ let resumeDataItalian = {
       skillname: "PostScript",
     },
   ],
+  portfolioCaption: "Ecco alcuni dei miei lavori.",
   portfolio: [
     {
       name: "SaveYourCar",
