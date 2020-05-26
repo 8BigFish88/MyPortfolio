@@ -25,7 +25,7 @@ let resumeData = {
     {
       UniversityName: "Scientific Studies",
       specialization:
-        "I've sustain various exams in math, phisic and Informatic",
+        "I've sustain various exams in math, phisic and Computer Science.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
@@ -34,6 +34,14 @@ let resumeData = {
       UniversityName: "Language Studies",
       specialization:
         "I've learn english and little spanish and franch trhough exams, travels, readings and listenings.",
+      MonthOfPassing: "",
+      YearOfPassing: "",
+      Achievements: "",
+    },
+    {
+      UniversityName: "Computer Engineering",
+      specialization:
+        "Thanks to a System Integrator course, I've learn notions on software engineering, networks, DB-security and both software and hardware architecture security.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
@@ -184,6 +192,14 @@ let resumeDataItalian = {
       UniversityName: "Conoscenze linguistiche",
       specialization:
         "Ho ottenuto una buona padronanza della lingua inglese tramite viaggi, corsi, letture e ascolto. Ho inoltre una conoscenza basica di francese e spagnolo.",
+      MonthOfPassing: "",
+      YearOfPassing: "",
+      Achievements: "",
+    },
+    {
+      UniversityName: "Conoscenze Informatiche Teoriche",
+      specialization:
+        "Grazie ad un corso di System Integrator ho acquisito nozioni di ingegneria del software, reti e gestione della sicurezza nei DB e nelle architetture software e hardware.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
