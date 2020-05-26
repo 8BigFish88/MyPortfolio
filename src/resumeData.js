@@ -63,10 +63,11 @@ let resumeData = {
       Achievements: "Some Achievements",
     },
   ],
-  skillsDescription: "Your skills here",
+  skillsDescription: "This are my skills",
   skills: [
     {
       skillname: "Python",
+      skilllink: "https://www.sololearn.com/Profile/16038617/Python",
     },
     {
       skillname: "Flask",
@@ -76,6 +77,7 @@ let resumeData = {
     },
     {
       skillname: "JavaScript",
+      skilllink: "https://www.sololearn.com/Profile/16038617/JavaScript",
     },
     {
       skillname: "ReactNative",
@@ -100,6 +102,7 @@ let resumeData = {
     },
     {
       skillname: "Java",
+      skilllink: "https://www.sololearn.com/Profile/16038617/Java",
     },
     {
       skillname: "C",
@@ -221,10 +224,11 @@ let resumeDataItalian = {
       Achievements: "Some Achievements",
     },
   ],
-  skillsDescription: "Your skills here",
+  skillsDescription: "Queste sono le mie abilità",
   skills: [
     {
       skillname: "Python",
+      skilllink: "https://www.sololearn.com/Profile/16038617/Python",
     },
     {
       skillname: "Flask",
@@ -234,6 +238,7 @@ let resumeDataItalian = {
     },
     {
       skillname: "JavaScript",
+      skilllink: "https://www.sololearn.com/Profile/16038617/JavaScript",
     },
     {
       skillname: "ReactNative",
@@ -258,6 +263,7 @@ let resumeDataItalian = {
     },
     {
       skillname: "Java",
+      skilllink: "https://www.sololearn.com/Profile/16038617/Java",
     },
     {
       skillname: "C",
