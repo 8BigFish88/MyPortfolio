@@ -42,6 +42,20 @@ header {
   overflow: hidden;
 }
 
+@media (max-width: 800px) {
+  header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../images/header-background-mobile.jpg) no-repeat
+      top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+  }
+}
 /* vertically center banner section */
 header:before {
   content: "";
