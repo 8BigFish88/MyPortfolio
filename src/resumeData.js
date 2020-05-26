@@ -33,7 +33,7 @@ let resumeData = {
     {
       UniversityName: "Language Studies",
       specialization:
-        "I've learned english, spanish and franch trhough exams, travels, readings and listenings.",
+        "I've learned english, spanish and franch through exams, travels, readings and listenings.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
@@ -41,7 +41,7 @@ let resumeData = {
     {
       UniversityName: "Computer Engineering",
       specialization:
-        "Thanks to a System Integrator course, I've learn notions on software engineering, networks, DB-security and both software and hardware architecture security.",
+        "Thanks to a System Integrator course, I've learnt notions on software engineering, networks, DB-security and both software and hardware architecture security.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
@@ -127,7 +127,7 @@ let resumeData = {
     {
       name: "SaveYourCar",
       description:
-        "App for monitoring the maintenace of your veichle. It's a responsive web app build with ReactJS, connected to an API backend build in Python-Flask. DB PstgresSQL.",
+        "App for monitoring the maintenace of your veichle. It's a responsive web app built with ReactJS, connected to an API backend build in Python-Flask. DB PstgresSQL.",
       imgurl: "images/portfolio/SaveYourCarReact.png",
       url: "https://saveyourcar.herokuapp.com/",
     },
