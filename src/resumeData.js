@@ -33,7 +33,7 @@ let resumeData = {
     {
       UniversityName: "Language Studies",
       specialization:
-        "I've learn english and little spanish and franch trhough exams, travels, readings and listenings.",
+        "I've learned english, spanish and franch trhough exams, travels, readings and listenings.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
