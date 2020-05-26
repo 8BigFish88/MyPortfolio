@@ -134,14 +134,14 @@ let resumeData = {
     {
       name: "Flask101",
       description:
-        "This is a blog that I build from scratch. It's build entirely with flask and Jinja2. Is pourpose was for me to learn flask while building it.",
+        "This is a blog that I build from scratch. It's built entirely with flask and Jinja2. Is pourpose was for me to learn flask while building it.",
       imgurl: "images/portfolio/flask101.png",
       url: "https://flask101blog.herokuapp.com/",
     },
     {
       name: "SaveYourCarAPI",
       description:
-        "This is the backend for the SaveYourCar project. This are RESTFUL API build entirely with Flask and the library Flask-RestPlus. Thanks to this a graphic interface is provided by Swagger. ",
+        "This is the backend for the SaveYourCar project. This are RESTFUL API built entirely with Flask and the library Flask-RestPlus. Thanks to this a graphic interface is provided by Swagger. ",
       imgurl: "images/portfolio/sycApi.png",
       url: "https://saveyourcar-api.herokuapp.com/",
     },
