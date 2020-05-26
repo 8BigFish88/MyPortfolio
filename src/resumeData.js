@@ -8,7 +8,7 @@ let resumeData = {
     " After varius exams, courses and practice. Now I would love to find a job as a Developer.",
   texts: {
     nameCaption: "I am",
-    skillsCaption: "This are some ofmy skills",
+    skillsCaption: "This are some of my skills",
   },
   socialLinks: [
     {
@@ -18,7 +18,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am currently looking for a job as a developer. I'm also about to finish a System Integrator course. I believe this is the best choice of future for me. My love for coding and problem solving, in general, tell me this is the right thing to do. I hope someone would give me soon the chance to prove I'm right.",
+    "I am currently looking for a job as a developer. I'm also about to finish a System Integrator course. I believe this is the best choice of future for me. My love for coding and problem solving, in general, tells me this is the right thing to do. I hope someone would give me soon the chance to prove I'm right.",
   address: "Italy",
   website: "https://github.com/8BigFish88",
   education: [
@@ -33,7 +33,7 @@ let resumeData = {
     {
       UniversityName: "Language Studies",
       specialization:
-        "I've learned english, spanish and franch through exams, travels, readings and listenings.",
+        "I've learned english, spanish and french through exams, travels, readings and listenings.",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements: "",
@@ -99,6 +99,9 @@ let resumeData = {
       skilllink: "https://www.sololearn.com/Profile/16038617/CSS",
     },
     {
+      skillname: "Bootstrap",
+    },
+    {
       skillname: "Git",
     },
     {
@@ -127,14 +130,14 @@ let resumeData = {
     {
       name: "SaveYourCar",
       description:
-        "App for monitoring the maintenace of your veichle. It's a responsive web app built with ReactJS, connected to an API backend build in Python-Flask. DB PstgresSQL.",
+        "App for monitoring the maintenace of your veichle. It's a responsive web app built with ReactJS, connected to an API backend built in Python-Flask.",
       imgurl: "images/portfolio/SaveYourCarReact.png",
       url: "https://saveyourcar.herokuapp.com/",
     },
     {
       name: "Flask101",
       description:
-        "This is a blog that I build from scratch. It's built entirely with flask and Jinja2. Is pourpose was for me to learn flask while building it.",
+        "This is a blog that I built from scratch. It's built entirely with flask and Jinja2. Is pourpose was for me to learn flask while building it.",
       imgurl: "images/portfolio/flask101.png",
       url: "https://flask101blog.herokuapp.com/",
     },
@@ -267,6 +270,9 @@ let resumeDataItalian = {
     {
       skillname: "CSS",
       skilllink: "https://www.sololearn.com/Profile/16038617/CSS",
+    },
+    {
+      skillname: "Bootstrap",
     },
     {
       skillname: "Git",
